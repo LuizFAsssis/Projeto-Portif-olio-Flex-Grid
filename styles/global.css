@@ -1,0 +1,11 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    --font-asap: "Asap", sans-serif;
+    --font-inconsolata: "Inconsolata", sans-serif;
+    --font-maven-pro: "Maven Pro", sans-serif;
+}
