@@ -5,6 +5,18 @@
 }
 
 body{
+    --color-red:#E3646E;
+    --color-purple: #BB72E9;
+    --color-blue:#3996DB;
+    --color-green:#82BC4F;
+    --color-yellow:#EABD5F;
+    --color-gray-100:#E2E4E9;
+    --color-gray-200:#C0C4CE;
+    --color-gray-300:#878EA1;
+    --color-gray-400:#292C34;
+    --color-gray-500:#16181D;
+    --color-gray-600:#0D0E11;
+
     --font-asap: "Asap", sans-serif;
     --font-inconsolata: "Inconsolata", sans-serif;
     --font-maven-pro: "Maven Pro", sans-serif;
