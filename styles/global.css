@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+:root{
     --color-red:#E3646E;
     --color-purple: #BB72E9;
     --color-blue:#3996DB;
@@ -18,6 +18,23 @@ body{
     --color-gray-600:#0D0E11;
 
     --font-asap: "Asap", sans-serif;
+    --title-lg: bold 56px/120% var(--font-asap);
+    --title-md:bold 24px/120% var(--font-asap);
+    --title-sm:bold 16px/120% var(--font-asap);
+
     --font-inconsolata: "Inconsolata", sans-serif;
+    --subtitle: 400 20px/120% var(--font-inconsolata)
+
     --font-maven-pro: "Maven Pro", sans-serif;
+    --text-md: 400 16px/140% var(--font-maven-pro);
+    --text-sm: 400 12px/140% var(--font-maven-pro);
 }
+
+body{
+    background-color: var(--color-gray-400);
+    color:var(--color-gray-100)
+}
+img{
+    max-height: 100%;
+}
+
