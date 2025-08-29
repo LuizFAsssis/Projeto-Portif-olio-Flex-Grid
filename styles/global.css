@@ -1,9 +1,8 @@
 *{
+    margin: 0px;
     padding: 0px;
-    margin:0px;
     box-sizing: border-box;
 }
-
 :root{
     --color-red:#E3646E;
     --color-purple: #BB72E9;
@@ -36,5 +35,8 @@ body{
 }
 img{
     max-height: 100%;
+}
+.container{
+    max-width: 1366px;
 }
 
