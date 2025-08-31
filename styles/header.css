@@ -3,8 +3,16 @@
     height: 750px;
 }
 #info{
+    width: 1366px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     .avatar{
-        content: center;
+        position: relative;
+        width: 100px;
+        aspect-ratio: 1/1;
+        justify-content: flex-end;
         .user{
             width: 100px; 
             height: 100px; 
@@ -13,16 +21,13 @@
             box-shadow: 0 0 0 3px var(--color-red); 
             object-fit: cover; 
         } 
+        .code{
+            position: absolute;
+            align-self: flex-end;
+        }
+    }
+    .text{
+        justify-content: center;
     }
     
 }
-
-header{
-    width: 1366px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-

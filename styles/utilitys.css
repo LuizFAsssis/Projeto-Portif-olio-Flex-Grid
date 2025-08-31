@@ -3,9 +3,10 @@
 }
 .flex{
     display:flex;
-    justify-content: center;
 }
-
+.center{
+    justify-self: center;
+}
 .grid-auto-flow{
     grid-auto-flow: rows;
 }
