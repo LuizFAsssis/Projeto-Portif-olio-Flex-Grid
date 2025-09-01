@@ -1,18 +1,26 @@
 #intro{
     background-image: url(../assets/Backgrounds/Background_Intro.png);
+    background-size: cover; /* ou outro valor menor */
+    background-repeat: repeat;
     height: 750px;
-}
-#info{
-    width: 1366px;
-    flex-direction: column;
+    display: flex;
     justify-content: center;
     align-items: center;
-    
+}
+.info{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    gap: 80px;
+    .title-lg{
+        margin-bottom: 20px;
+    }
     .avatar{
         position: relative;
         width: 100px;
         aspect-ratio: 1/1;
         justify-content: flex-end;
+        margin-bottom: 56px ;
         .user{
             width: 100px; 
             height: 100px; 
@@ -28,6 +36,33 @@
     }
     .text{
         justify-content: center;
+        .subtitle{
+            color: var(--color-gray-200);
+        }
+        .highlight{
+            margin-inline: 4px;
+            color: var(--color-red);
+        }
     }
-    
+    figure{
+        gap: 16px;
+        .content-tag{
+            display: flex;
+            background-color: var(--color-gray-400);
+            padding: 16px 8px;
+            border-radius: 24px;
+            align-items: center;
+            height: 50px;
+            gap: 8px;
+            img{
+            height: 24px;
+            width: 24px;
+            object-fit: cover;
+            margin-left: 8px;
+            }
+            span{
+                margin-right: 16px;
+            }
+        }
+    }
 }

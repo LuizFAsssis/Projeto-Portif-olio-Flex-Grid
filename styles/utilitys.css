@@ -22,7 +22,9 @@
 }
 .subtitle{
     font: var(--subtitle);
+    margin-bottom: 8px;
 }
 .text-sm{
     font: var(--text-sm);
+    color: var(--color-gray-300);
 }
