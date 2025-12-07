@@ -28,7 +28,15 @@
     font: var(--text-sm);
     color: var(--color-gray-300);
 }
- .highlight{
+.text-md{
+    font: var(--text-md);
+    color: var(--color-gray-200);
+}
+.highlight{
     margin-inline: 4px;
     color: var(--color-red);
+}
+.highlight-purple{
+    margin-inline: 4px;
+    color: var(--color-purple);
 }

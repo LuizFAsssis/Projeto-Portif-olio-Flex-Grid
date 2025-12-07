@@ -1,0 +1,59 @@
+#contact{
+     background-image: url(../assets/Backgrounds/Background_Contacts.png);
+    background-size: cover; /* ou outro valor menor */
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px ;
+    header{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            align-items: center;
+        }
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        .contact-card{
+            display: flex;
+            flex-direction: row;
+            background-color: var(--color-gray-400);
+            width: 400px;
+            justify-content: space-between;
+            padding: 23px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            .seta{
+                margin: 4.8px;
+                aspect-ratio: 1/1;
+                width: 20px;
+                height: 20px;
+            }
+            div{
+                display: flex;
+                flex-direction: row;
+                gap: 12px;
+                align-items: center;
+                img{
+                    padding: 2.52px;
+                }
+            }
+        }
+        .contact-card:hover {
+            border: 3px solid #3996DB; 
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            transform: translateY(-4px);
+            img{
+                filter: brightness(0) saturate(100%) invert(48%) sepia(79%) saturate(2476%) hue-rotate(184deg) brightness(98%) contrast(97%);
+            }
+            p{
+                color: #3996DB;
+            }
+        }
+    }
+}
