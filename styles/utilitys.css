@@ -28,3 +28,7 @@
     font: var(--text-sm);
     color: var(--color-gray-300);
 }
+ .highlight{
+    margin-inline: 4px;
+    color: var(--color-red);
+}

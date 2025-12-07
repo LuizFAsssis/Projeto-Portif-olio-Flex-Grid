@@ -39,10 +39,6 @@
         .subtitle{
             color: var(--color-gray-200);
         }
-        .highlight{
-            margin-inline: 4px;
-            color: var(--color-red);
-        }
     }
     figure{
         gap: 16px;

@@ -1,0 +1,43 @@
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 56px;
+    background-color: var(--color-gray-600);
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+    }
+    .services-grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 24px;
+        margin-bottom: 120px;
+        .services-card{
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border-radius: 12px;
+            padding: 15px;
+            img{
+                padding:6px 7.5px ;
+                margin-bottom: 20px;
+            }
+            .title-sm{
+                margin-bottom: 8px;
+            }
+            .text-sm{
+                margin-bottom: 20px;
+            }
+        }
+    }
+     .services-card:hover {
+        border-color: var(--color-primary); 
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        transform: translateY(-4px);
+    }
+}

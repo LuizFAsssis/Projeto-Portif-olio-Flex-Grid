@@ -22,7 +22,7 @@
     --title-sm:bold 16px/120% var(--font-asap);
 
     --font-inconsolata: "Inconsolata", sans-serif;
-    --subtitle: 400 20px/120% var(--font-inconsolata)
+    --subtitle: 400 20px/120% var(--font-inconsolata);
 
     --font-maven-pro: "Maven Pro", sans-serif;
     --text-md: 400 16px/140% var(--font-maven-pro);
@@ -30,7 +30,7 @@
 }
 
 body{
-    background-color: var(--color-gray-400);
+    background-color: var(--color-gray-500);
     color:var(--color-gray-100)
 }
 img{
